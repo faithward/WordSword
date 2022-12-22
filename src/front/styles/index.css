@@ -1,0 +1,250 @@
+/* 
+    General Styles used on every website (Don't Repeat Yourself)
+*/
+.cutesiefy {
+  background-color: #e7e7e7;
+  color: black;
+  border-radius: 12px;
+  margin: 5px;
+  font-weight: bold;
+  width: 100px;
+  transition: width 1s, height 1s;
+  transition-timing-function: lienar;
+  margin: 5px;
+}
+.cutesiefy:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  width: 115px;
+  height: 50px;
+  font-size: large;
+}
+.big:hover {
+  height: 70px;
+}
+
+/* 
+    CSS FOR DEBUGGING
+*/
+
+/* div {
+  border: 1px solid #fa8072;
+  border-style: dashed;
+} */
+.createLabels {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+.createSubmit {
+  margin: auto;
+  width: 50%;
+}
+.button-submit {
+  margin-bottom: 2rem;
+}
+body {
+  background-color: rgba(73, 84, 73, 0.082);
+}
+.flashyText:hover {
+  background-color: rgba(128, 125, 216, 0.459);
+  color: white;
+  font-weight: bold;
+}
+.pNav:hover {
+  background-color: rgba(128, 125, 216, 0.459);
+  color: white;
+  font-weight: bold;
+}
+.container {
+  position: relative;
+  background: #c4c2c2;
+  height: 50vh;
+}
+
+.wave {
+  position: absolute;
+  height: 70px;
+  width: 100%;
+  background: #2c3e50;
+  bottom: 0;
+}
+
+.wave::before,
+.wave::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+}
+
+.wave::before {
+  width: 55%;
+  height: 109%;
+  background-color: #fff;
+  right: -1.5%;
+  top: 60%;
+}
+.wave::after {
+  width: 55%;
+  height: 100%;
+  background-color: #2c3e50;
+  left: -1.5%;
+  top: 40%;
+}
+
+.para {
+  font-family: Verdana;
+}
+/* .divider {
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.minfo {
+  font-family: Arial;
+  width: 0;
+  height: 0;
+  border-top: 100px solid #f8f9fa;
+  border-left: 100vw solid transparent;
+}
+
+.forminfo {
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 0px;
+  border-bottom: 100px solid 255, 255, 255;
+  border-left: 100vw solid transparent;
+}
+
+.backcolor {
+  overflow: hidden;
+  height: 200px;
+  background: white; */
+
+.divider:before {
+  position: relative;
+  float: left;
+  background: linear-gradient(
+    to right,
+    rgba(200, 200, 200, 0),
+    rgba(200, 200, 200, 1) 50%
+  );
+  margin-top: 2px;
+  width: 50%;
+  height: 0.5px;
+  content: "";
+}
+
+.divider:after {
+  position: relative;
+  float: right;
+  background: linear-gradient(
+    to left,
+    rgba(100, 200, 200, 0),
+    rgba(200, 200, 200, 1) 50%
+  );
+  margin-top: 2px;
+  width: 50%;
+  height: 0.5px;
+  content: "";
+}
+.thumbnail {
+  height: 35px;
+  width: 35px;
+}
+
+.circle1,
+.circle2,
+.circle3,
+.circle4,
+.circle5,
+.circle6 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(25, 25, 25, 0.8),
+    rgba(0, 0, 0, 0.3)
+  );
+  height: 4rem;
+  width: 4rem;
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(2, 2, 2, 0.7),
+    rgba(2, 2, 2, 0.3)
+  );
+}
+.circle1 {
+  bottom: 10%;
+  left: 5%;
+}
+.circle2 {
+  bottom: 20%;
+  left: 5%;
+}
+.circle3 {
+  bottom: 30%;
+  left: 5%;
+}
+.circle4 {
+  bottom: 10%;
+  left: 15%;
+}
+.circle5 {
+  bottom: 10%;
+  left: 10%;
+}
+.circle6 {
+  bottom: 20%;
+  left: 10%;
+}
+.circle7,
+.circle8,
+.circle9,
+.circle10,
+.circle11,
+.circle12 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(25, 25, 25, 0.8),
+    rgba(0, 0, 0, 0.3)
+  );
+  height: 4rem;
+  width: 4rem;
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(2, 2, 2, 0.7),
+    rgba(2, 2, 2, 0.3)
+  );
+}
+.circle7 {
+  top: 10%;
+  right: 5%;
+}
+.circle8 {
+  top: 10%;
+  right: 10%;
+}
+.circle9 {
+  top: 10%;
+  right: 15%;
+}
+.circle10 {
+  top: 20%;
+  right: 5%;
+}
+.circle11 {
+  top: 30%;
+  right: 5%;
+}
+.circle12 {
+  top: 20%;
+  right: 10%;
+}

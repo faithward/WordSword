@@ -44,6 +44,8 @@ export const Create = () => {
       <div className="width80">
         <div className="divider" />
       </div>
+      <p><i>Unfortunately, our server is down at the moment. We apologize for the inconvenience.</i></p>
+      <p><i>You may continue using WordSword without signing up.</i></p>
       <br></br>
       <div className="form w-50" style={{ margin: "auto" }}>
         <form onSubmit={handleSubmit}>

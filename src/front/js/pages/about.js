@@ -65,7 +65,7 @@ export const About = () => {
               </div>
               <br></br>
               <p className="card-text">
-                Junior software developer with years of database experience and the most
+                Full stack developer with years of database experience. The most
                 technical debugger.
               </p>
               <a
@@ -88,8 +88,8 @@ export const About = () => {
               </div>
               <br></br>
               <p className="card-text">
-                Junior software developer. Enjoys creating, designing, and
-                putting together pretty and user friendly websites!{" "}
+                Full stack software developer. Enjoys creating, designing, and
+                putting together pretty and user-friendly websites!{" "}
               </p>
               <a
                 className="btn btn-outline-primary"

@@ -38,6 +38,8 @@ export const Login = () => {
         <div className="divider" />
       </div>
       <br></br>
+      <p><i>Unfortunately, our server is down at the moment. We apologize for the inconvenience.</i></p>
+      <p><i>You may continue using WordSword without logging in.</i></p>
       <form onSubmit={handleSubmit}>
         <div className="form-outline w-50" style={{ margin: "auto" }}>
           <label htmlFor="InputEmail" className="form-label">

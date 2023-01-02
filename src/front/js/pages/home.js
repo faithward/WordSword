@@ -108,8 +108,9 @@ export const Home = () => {
         <></>
       )}
       <br></br>
+      <p>You can use the text from <a href="https://github.com/faithward/WordSword/blob/1b439eaa5676ef1bfe94b47e963c451c1ffe2875/docs/promise.txt#L1">this file</a> to test it out!</p>
       <br></br>
-      <h6>WordSword can accept .txt or .pdf files</h6>
+      <h6>WordSword can accept .txt files</h6>
       <div className="form" type="form">
         {/* <div className="form button" style={{ marginBottom: 20 }}> */}
         <label htmlFor="inputFile">Click here:</label>

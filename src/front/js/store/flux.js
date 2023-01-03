@@ -333,7 +333,15 @@ const getState = ({ getStore, getActions, setStore }) => {
           "USUALLY",
           "OFTEN",
           "SOMETIMES",
-        ];
+          "MORE",
+          "MOST",
+          "US",
+          ".",
+          ",",
+          "?",
+          "!",
+          ":",
+                ];
         //change count number for common words to zero so they won't be registered
         for (let i = 0; i < Object.keys(counts).length; i++) {
           let currentWord = Object.keys(counts)[i];
